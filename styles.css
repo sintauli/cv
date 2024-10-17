@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0cm;
+    padding: 0cm;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    width: 60%;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 1px;
+}
+
+.left-column, .right-column {
+    padding: 40px;
+    flex: 1;
+}
+
+.left-column {
+    background-color: #7207ff;
+    border-right: 2px solid #fdfcfd;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin: 0;
+}
+
+h3 {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+.right-column {
+    background-color: #f9f9f9;
+}
+.skills {
+    margin-top: 20px;
+}
+
+.skill {
+    margin-bottom: 15px;
+}
+
+.skill-bar {
+    height: 20px;
+    background-color: #7207ff;
+    border-radius: 10px;
+    transition: width 0.3s;
+}
+.about-me {
+    display: flex;
+    justify-content: space-between; /* Memisahkan teks kiri dan kanan */
+}
+
+.left-text {
+    text-align: left; /* Meratakan teks ke kiri */
+    width: 45%; /* Lebar kolom kiri */
+}
+
+.right-text {
+    text-align: right; /* Meratakan teks ke kanan */
+    width: 45%; /* Lebar kolom kanan */
+}
+
